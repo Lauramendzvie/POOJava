@@ -1,7 +1,7 @@
 package Departamento;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[]args) {
 
         Prioridade prioridade = Prioridade.ALTA;
 
@@ -11,7 +11,6 @@ public class Main {
             case ALTA -> System.out.println("chamado com prioridade alta, resolver o quanto antes");
             case URGENTE -> System.out.println(" Chamado com prioridade URGENTE, resolver AGORA");
         }
-
 
     }
 }
